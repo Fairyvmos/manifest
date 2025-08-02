@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:dvb="urn:dvb:dash:dash-extensions:2014-1" xmlns:move="http://www.movenetworks.com/dash/v1" xmlns:ms="urn:microsoft" xmlns:_XMLSchema-instance="http://www.w3.org/2001/XMLSchema-instance" _XMLSchema-instance:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" maxSegmentDuration="PT2.048000S" minBufferTime="PT2.048000S" publishTime="2025-08-02T08:30:00Z" type="static" mediaPresentationDuration="PT1800.000000S">
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:dvb="urn:dvb:dash:dash-extensions:2014-1" xmlns:move="http://www.movenetworks.com/dash/v1" xmlns:ms="urn:microsoft" xmlns:_XMLSchema-instance="http://www.w3.org/2001/XMLSchema-instance" _XMLSchema-instance:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" maxSegmentDuration="PT2.048000S" minBufferTime="PT2.048000S" publishTime="2025-08-02T08:30:00Z" type="dynamic" minimumUpdatePeriod="PT5S">
     <ProgramInformation>
         <Linear xmlns="http://www.movenetworks.com/dash/v1">true</Linear>
         <Gaps xmlns="http://www.movenetworks.com/dash/v1" possible="false"></Gaps>
     </ProgramInformation>
-    <Period id="1" duration="PT1800.000000S" start="PT0.000000S">
+    <Period id="1" start="PT0.000000S">
         <BaseURL serviceLocation="15602-Fastly" dvb:priority="1" dvb:weight="90">http://p-cdn4-602-cg15-linear-cbd46b77.movetv.com/15602/live/CRUNCH/ba9377266f2b11f085338d2b66154dbe/</BaseURL>
         <BaseURL serviceLocation="15602-Akamai" dvb:priority="1" dvb:weight="10">http://p-cdn1-602-cg15-linear-cbd46b77.movetv.com/15602/live/CRUNCH/ba9377266f2b11f085338d2b66154dbe/</BaseURL>
         <BaseURL serviceLocation="15602-Fastly" dvb:priority="2" dvb:weight="90">http://p-cdn4-602-cg15-linear-cbd46b77.movetv.com/15602/live/CRUNCH/ba9377266f2b11f085338d2b66154dbe/</BaseURL>
